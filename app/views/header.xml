@@ -1,0 +1,10 @@
+<!--
+	Author - Narendra Raorane.
+ 	Created On - 8/12/2013
+ 	Purpose - Common header (Acroos whole app) view.
+-->
+<Alloy>
+	<View id="vwHeader">
+		<Button id="btnBack" onClick="goBack"></Button>
+	</View>
+</Alloy>

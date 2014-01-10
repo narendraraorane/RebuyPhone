@@ -1,0 +1,20 @@
+/*
+ * Author - Narendra Raorane.
+ * Created On - 8/12/2013
+ * Purpose - Common Header View styles.
+ */
+
+"#vwHeader": {
+	height: "50dp",
+	width: Ti.Platform.displayCaps.platformWidth,
+	top: "0dp",
+	left: "0dp",
+	backgroundColor: "blue"	
+},
+"#btnBack": {
+	left: "3dp",
+	height: "40dp",
+	top: "5dp",
+	width: "40dp",
+	title: "<" 	
+}

@@ -1,0 +1,56 @@
+<!--
+	Author - Narendra Raorane.
+ 	Created On - 8/12/2013
+ 	Purpose - Product listing page view.
+-->
+<Alloy>
+	<Window id="winProdList" onFocus="winFocus">
+		<Require src="header"></Require>
+		<TextField id="txtSrch"></TextField>
+		<Button id="btnSrch"> Search </Button>
+        <ListView id="lstvwProdList" defaultItemTemplate="tmplProdList" top="50" left="0" width=Ti.Platform.displayCaps.platformWidth>
+            <!-- The Templates tag sets the ListView's templates property -->
+            <Templates>
+                <!-- Define your item templates within the Templates tags or use the
+                     Require tag to include a view that only contains an ItemTemplate -->
+                <!-- <Require src="template/prodList"></Require> -->
+			    <ItemTemplate name="tmplProdList">
+			    	<View bindId="prodVwName" id="VwMain">
+			    		<ImageView bindId="prodPic" id="imgvwIcon" />
+			    		<View bindId="prodVwSub" id="VwSub">
+					        <Label bindId="prodName" id="lblName" />
+					        <Label bindId="prodPrice" id="lblPrice" />
+					        <Label bindId="prodSize" id="lblSize" />
+			    		</View>
+			    	</View>
+			        <!--<ImageView bindId="prodPic" id="imgvwIcon" />
+			        <Label bindId="prodName" id="lblName" />
+			        <Label bindId="prodPrice" id="lblPrice" />
+			        <Label bindId="prodSize" id="lblSize" />
+			        <Label bindId="prodColor" id="lblColor" /> -->
+			    </ItemTemplate>
+                
+            </Templates>
+            <!-- <ListSection headerTitle="Apple"> -->
+                <!-- You can specify any ListItem or ListDataItem properties in ListItem -->
+                <!-- Specify data to bind to the item template with inline attributes
+                     defined as <bindId>:<Ti.UI.Component.property> -->
+                <!-- <ListItem class="height60dp" prodName:text="iPhone 4S" prodPrice:text="Rs. 20,000/-" prodPic:image="/iphone_4s_75x75.jpg" prodSize:text='16 GB' prodColor:text='Black'/>
+                <ListItem class="height60dp" prodName:text="iPhone 5C" prodPrice:text="Rs. 23,000/-" prodPic:image="/iphone_5c_blu_f_bk_75x75.png" prodSize:text='32 GB' prodColor:text='White'/>
+            </ListSection>
+            <ListSection headerTitle="Samsung">
+                <ListItem class="height60dp" prodName:text="Samsung Galaxy S3" prodPrice:text="Rs. 15,000/-" prodPic:image="/sams_s3_blk_75x75.png" prodSize:text='32 GB' prodColor:text='Black'/>
+                <ListItem class="height60dp" prodName:text="Samsung Ace Duos S6802" prodPrice:text="Rs. 18,000/-" prodPic:image="/sams_ace_duos_S6802_75x75.png" prodSize:text='64 GB' prodColor:text='Sliver'/>
+            </ListSection>
+            <ListSection headerTitle="Nokia">
+                <ListItem class="height60dp" prodName:text="Nokia Lumia 820" prodPrice:text="Rs. 13,000/-" prodPic:image="/lumia_820_75x75.png" prodSize:text='16 GB' prodColor:text='Black'/>
+                <ListItem class="height60dp" prodName:text="Nokia Lumia 920	" prodPrice:text="Rs. 22,000/-" prodPic:image="/lumia_920_red_75x75.png" prodSize:text='16 GB' prodColor:text='Blue'/>
+            </ListSection>
+     -->
+             <ListSection headerTitle="Samsung">
+                <ListItem class="height100dp" prodName:text="Samsung Galaxy S3" prodPrice:text="Rs. 15,000/-" prodPic:image="/sams_s3_blk_75x75.png" prodSize:text="3 More variant(s) available"/>
+                <!--<ListItem prodLblName:text="Samsung Ace Duos S6802" prodLblPrice:text="Rs. 18,000/-" prodImgVw:image="/sams_ace_duos_S6802_75x75.png" prodLblExt:text='1 More variant(s) available'/>-->
+            </ListSection>
+     	</ListView>
+	</Window>
+</Alloy>

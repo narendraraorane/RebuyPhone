@@ -1,0 +1,60 @@
+/*
+ * Author - Narendra Raorane.
+ * Created On - 8/12/2013
+ * Purpose - Landing/Home page view styles.
+ */
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+},
+"TextField": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'left'
+},
+"#txtSrch[platform=android,ios]" : {
+	height: "10%",
+	width: "70%",
+	left: "5dp",
+	top: "5dp",
+	borderColor: "black",
+	paddingLeft: "5dp",
+},
+"#btnSrch" : {
+	height: "10%",
+	width: "25%",
+	right: "5dp",
+	top: "7dp",
+},
+".prodThumbnil" : {
+	left: "15dp",
+	height: "30%",
+	width: "40%",
+	top: "50dp",
+	backgroundColor: "red"
+},
+"#btnProducts" : {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	left: "15dp",
+	bottom: "10dp",
+},
+"#btnAboutUs" : {
+	height: "10%",
+	width: "25%",
+	right: "15dp",
+	bottom: "10dp",
+}
+

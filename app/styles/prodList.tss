@@ -1,0 +1,82 @@
+/*
+ * Author - Narendra Raorane.
+ * Created On - 8/12/2013
+ * Purpose - Product listing page view styles.
+ */
+
+"#imgvwIcon": {
+    width: '50dp', height: '50dp', left: 0
+},
+"#lblName": {
+    color: 'black',
+    font: { fontFamily:'Arial', fontSize: '20dp', fontWeight:'bold' },
+    left: '60dp', top: 0
+},
+"#lblPrice": {
+    color: 'gray',
+    font: { fontFamily:'Arial', fontSize: '14dp' },
+    right: '10dp', top: '23dp'
+},
+"#lblSize": {
+    color: 'black',
+    font: { fontFamily:'Arial', fontSize: '20dp' },
+    left: '60dp', top: '25dp'
+},
+"#lblColor" : {
+    color: 'gray',
+    font: { fontFamily:'Arial', fontSize: '14dp' },
+    left: '140dp', top: '24dp'
+},
+"ListItem": {
+	accessoryType : Ti.UI.LIST_ACCESSORY_TYPE_DETAIL
+	//height : '50dp'
+},
+"#lstvwProdList": {
+	top: "150dp",
+	width: Ti.Platform.displayCaps.platformWidth
+},
+"#txtSrch": {
+	hintText: "Search",
+	left: "50dp",
+	height: "40dp",
+	top: "5dp",
+	width: "225dp",
+	visible: "true"	
+},
+"#btnSrch": {
+	right: "3dp",
+	height: "40dp",
+	top: "5dp",
+	width: "40dp"
+},
+"#lstvwProdList" : {
+	top:'20dp',
+	left:'10dp',
+	right:'10dp',
+	bottom:'20dp'
+},
+".headerView" : {					// View for header
+	top:0,
+	height:'42dp',
+	width:'100%',
+	backgroundImage: 'searchBar_White.PNG'	
+},
+"#prodVwMain" : {					// View for parent row
+	backgroundColor : "white",
+	//opacity:'0.8%',
+	top : '47dp',
+	left : '10dp',
+	right : '10dp',
+	height : '110dp',	// flpk = 235 p
+	layout : 'horizontal',
+	//borderRadius: '2dp',
+	//borderColor:'#ADA6A1',
+	//borderWidth: '1dp'
+},
+"#prodVwSub" : {			// View for details after the separator next to image
+	//backgroundColor : 'red',
+	left : '7dp',
+	right: '5dp',
+	height: '80dp',
+	layout : 'vertical'
+}

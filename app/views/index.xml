@@ -1,0 +1,19 @@
+<!--
+	Author - Narendra Raorane.
+ 	Created On - 8/12/2013
+ 	Purpose - Landing/Home page view.
+-->
+<Alloy>
+	<TabGroup id="tbgrpIndex">
+		<Tab id="tbIndex">
+			<Window id="winIndex" exitOnClose="true">
+				<TextField id="txtSrch"></TextField>
+				<Button id="btnSrch" onClick="searchProd"> Search </Button>
+				<View class="prodThumbnil" backgroundImage="/default.png">
+				</View>
+				<Button id="btnProducts" onClick="getProdList"> Products </Button>
+				<Button id="btnAboutUs" onClick="getAboutUsInfo" title="About Us"></Button>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>

@@ -1,0 +1,30 @@
+/*
+ * Author - Narendra Raorane.
+ * Created On - 8/12/2013
+ * Purpose - App level styles. This styles apply throughout whole app irrespective of any view.
+ */
+
+"Window": {
+	backgroundColor: "#fff",
+	tabBarHidden: "true",
+	navBarHidden: "true",
+	//orientation: 3
+	orientationModes: [
+		Ti.UI.PORTRAIT,
+		Ti.UI.UPSIDE_PORTRAIT
+		//Ti.UI.LANDSCAPE_LEFT,
+		//Ti.UI.LANDSCAPE_RIGHT
+	]
+},
+".left5dp": {
+	left: "5dp"
+},
+".left55dp": {
+	left: "55dp"
+},
+".height60dp": {
+	height: "60dp"
+},
+".height100dp": {
+	height: "100dp"
+}

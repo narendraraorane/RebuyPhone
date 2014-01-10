@@ -1,0 +1,15 @@
+<!--
+	Author - Narendra Raorane.
+ 	Created On - 8/12/2013
+ 	Purpose - Product detail view.
+-->
+<Alloy>
+	<Window id="winProdDetail" onFocus="winFocus">
+		<Require src="header"></Require>
+		<ImageView id="imgvwProdImage" backgroundColor="green"></ImageView>
+		<ScrollView id="scrvwBtmProdImages" backgroundColor="yellow">
+			<ImageView class="left5dp btmImageView" backgroundColor="blue"></ImageView>
+			<ImageView class="left55dp btmImageView" backgroundColor="red"></ImageView>
+		</ScrollView>
+	</Window>
+</Alloy>

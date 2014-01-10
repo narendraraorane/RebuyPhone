@@ -1,0 +1,31 @@
+/*
+ * Author - Narendra Raorane.
+ * Created On - 8/12/2013
+ * Purpose - Product detail page view styles.
+ */
+
+".btmImageView": {
+  height: "40dp",
+  width: "40dp",
+  top: "5dp",
+  image: "/iphone_4s_75x75.jpg"
+},
+"#imgvwProdImage": {
+	left: "35%",
+	top: "60dp",
+	height: "100dp",
+	width: "100dp",
+	duration: 100,
+	repeatCount: 0,
+	image: "/lumia_820_75x75.png",
+	/*images: [
+		'/sams_s3_blk_75x75.png',
+		'/sams_s4_blk_75x75.png'
+	]*/
+},
+"#scrvwBtmProdImages": {
+	bottom: "0dp",
+	height: "50dp",
+	displayWidth: Ti.Platform.displayCaps.platformWidth,
+	width: "auto"
+}
