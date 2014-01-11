@@ -5,31 +5,31 @@
  */
 
 "#imgvwIcon": {
-    width: '50dp', height: '50dp', left: 0
+    width: '60dp',
+    height: '50dp',
+    left: 0
 },
 "#lblName": {
     color: 'black',
     font: { fontFamily:'Arial', fontSize: '20dp', fontWeight:'bold' },
-    left: '60dp', top: 0
+    left: '10dp'
 },
 "#lblPrice": {
-    color: 'gray',
-    font: { fontFamily:'Arial', fontSize: '14dp' },
-    right: '10dp', top: '23dp'
-},
-"#lblSize": {
     color: 'black',
-    font: { fontFamily:'Arial', fontSize: '20dp' },
-    left: '60dp', top: '25dp'
-},
-"#lblColor" : {
-    color: 'gray',
     font: { fontFamily:'Arial', fontSize: '14dp' },
-    left: '140dp', top: '24dp'
+    top: '2dp',
+    left: '10dp'
+},
+"#lblDetail": {
+    color: 'gray',
+    font: { fontFamily:'Arial', fontSize: '12dp' },
+    //left: '60dp', top: '25dp'
+    top: '2dp',
+    left: '10dp'
 },
 "ListItem": {
-	accessoryType : Ti.UI.LIST_ACCESSORY_TYPE_DETAIL
-	//height : '50dp'
+	accessoryType : Ti.UI.LIST_ACCESSORY_TYPE_DETAIL,
+	height : 80
 },
 "#lstvwProdList": {
 	top: "150dp",
@@ -50,33 +50,14 @@
 	width: "40dp"
 },
 "#lstvwProdList" : {
-	top:'20dp',
-	left:'10dp',
-	right:'10dp',
-	bottom:'20dp'
+	top:'50dp',
+	left:'0dp',
 },
-".headerView" : {					// View for header
-	top:0,
-	height:'42dp',
-	width:'100%',
-	backgroundImage: 'searchBar_White.PNG'	
-},
-"#prodVwMain" : {					// View for parent row
+"#VwMain" : {
+	//layout : 'horizontal',
 	backgroundColor : "white",
-	//opacity:'0.8%',
-	top : '47dp',
-	left : '10dp',
-	right : '10dp',
-	height : '110dp',	// flpk = 235 p
-	layout : 'horizontal',
-	//borderRadius: '2dp',
-	//borderColor:'#ADA6A1',
-	//borderWidth: '1dp'
 },
-"#prodVwSub" : {			// View for details after the separator next to image
-	//backgroundColor : 'red',
-	left : '7dp',
-	right: '5dp',
-	height: '80dp',
+"#VwSub" : {
+	left : '55dp',
 	layout : 'vertical'
 }
